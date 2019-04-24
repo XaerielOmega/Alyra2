@@ -1,0 +1,22 @@
+{
+  "name": "hachage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "JS hashage minage1.js",
+  "scripts": {
+    "test": "read"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XaerielOmega/ALyra.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XaerielOmega/ALyra/issues"
+  },
+  "homepage": "https://github.com/XaerielOmega/ALyra#readme",
+  "dependencies": {
+    "commander": "^2.20.0"
+  }
+}

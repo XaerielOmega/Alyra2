@@ -1,0 +1,21 @@
+pragma solidity ^0.5.7;
+contract SceneOverte{
+    string[12] public passageArtistes;
+    uint public creneauxLibres = 12;
+    uint tour;
+    
+    function sInscrire(string memory nomDArtiste) public{
+        passageArtistes[12-creneauxLibres] = nomDArtiste;
+        creneauxLibres -= 1;
+    }
+    
+    function passerArtisteSuivant() public returns(string memory){
+        tour++;
+        return passageArtistes[tour];
+    }
+    
+    function artisteEnCours() public view returns(string memory){
+        require(tour< 12 - creneauxLibres);
+        return passageArtistes[tour];
+    }
+}
