@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+		<title>Défis 1</title>
+		<meta charset="utf-8" />
+	</head>
+	<body>
+        <script type="text/javascript" src="Defis1Script.js"></script>
+        <h1>Outils de conversion</h1>
+		<fieldset>
+            <legend>Conversion</legend>
+            <input type="text" value="" id="varIn"><br>
+            <select name="operat">
+                <option value="hexDec">Hexadécimal -> décimal</option>
+                <option value="decHex">décimal -> Hexadécimal</option>
+                <option value="hexLeHex">Hexadécimal little endian -> hexadécimal</option>
+                <option value="varIntDec">varInt ->décimal</option>
+                <option value="cvBiCiCo">Champ Bits -> Cible correspondante</option>
+                <option value="ciDif">Cible -> Difficulté</option>
+            </select><br><br>
+
+		    <span type="text" id="varOut"></span><br>
+		    <button id="convert" onclick="Defis1Script.convert()">Convertir</button>
+        </fieldset>
+        <a href="Defis1Index.html">Retour</a>
+	</body>
+</html> 
